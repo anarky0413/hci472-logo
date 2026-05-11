@@ -1,0 +1,562 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F2;
+    color: #1E1E1E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.site-nav{
+    background-color: #E7E1BF;
+    border-bottom: 1px solid rgba(80, 61, 13, 0.25);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-lockup{
+    height: 42px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* GENERAL TEXT */
+
+p{
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3{
+    color: #1E1E1E;
+}
+
+/* TITLE SECTION */
+
+.title-section{
+    background-color: #F5F5F2;
+    padding: 70px 0 50px;
+    text-align: center;
+}
+
+.title-section h1{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+}
+
+/* SECTIONS */
+
+.content-section{
+    padding: 80px 0;
+    background-color: #F5F5F2;
+    border-top: 1px solid rgba(80, 61, 13, 0.18);
+}
+
+.first-section{
+    border-top: none;
+    padding-top: 30px;
+}
+
+.alt-section{
+    background-color: #FFFFFF;
+}
+
+.section-heading{
+    max-width: 760px;
+    margin-bottom: 36px;
+}
+
+.eyebrow{
+    color: #503D0D;
+    font-size: 0.85rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.section-heading h2{
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+.section-heading p{
+    color: #333333;
+}
+
+/* RATIONALE */
+
+.rationale-section{
+    padding-bottom: 90px;
+}
+
+.rationale-card{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 28px;
+    padding: 50px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.14);
+}
+
+.rationale-card .eyebrow{
+    color: #E7E1BF;
+}
+
+.rationale-card h2{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.rationale-card p{
+    max-width: 900px;
+    color: #FFFFFF;
+    font-size: 1.12rem;
+}
+
+/* LOGO CARDS */
+
+.logo-grid{
+    display: grid;
+    gap: 30px;
+}
+
+.two-column{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.logo-card{
+    border-radius: 24px;
+    padding: 34px;
+    min-height: 360px;
+    border: 1px solid #CFCFCF;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+.logo-card h3{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.logo-card p{
+    color: #555555;
+}
+
+.light-card{
+    background-color: #FFFFFF;
+}
+
+.dark-card{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-color: #000000;
+}
+
+.dark-card h3,
+.dark-card p{
+    color: #FFFFFF;
+}
+
+.image-box{
+    min-height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F2;
+    border-radius: 18px;
+    padding: 28px;
+}
+
+.dark-card .image-box{
+    background-color: #000000;
+}
+
+.image-box img{
+    width: auto;
+    max-width: 260px;
+    max-height: 180px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.lockup-box img{
+    max-width: 460px;
+    max-height: 160px;
+}
+
+/* SMALL USE */
+
+.small-use-card{
+    background-color: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    max-width: 680px;
+}
+
+.small-use-card img{
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.small-use-card h3{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.small-use-card p{
+    color: #555555;
+}
+
+/* COLOR PALETTE */
+
+.palette-grid{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.color-item{
+    background-color: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.06);
+}
+
+.color-item h3{
+    font-size: 1rem;
+    font-weight: 800;
+    margin: 12px 0 4px;
+}
+
+.color-item p{
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.swatch{
+    height: 90px;
+    border-radius: 14px;
+    border: 1px solid #CFCFCF;
+}
+
+.swatch.black{
+    background-color: #000000;
+}
+
+.swatch.white{
+    background-color: #FFFFFF;
+}
+
+.swatch.charcoal{
+    background-color: #1E1E1E;
+}
+
+.swatch.offwhite{
+    background-color: #F5F5F2;
+}
+
+.swatch.cream{
+    background-color: #E7E1BF;
+}
+
+.swatch.brown{
+    background-color: #503D0D;
+}
+
+/* FOOTER */
+
+.site-footer{
+    background-color: #E7E1BF;
+    color: #503D0D;
+    text-align: center;
+    padding: 24px 0;
+    border-top: 1px solid rgba(80, 61, 13, 0.25);
+}
+
+.site-footer p{
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 992px){
+    .palette-grid{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px){
+    .title-section{
+        padding: 50px 0 36px;
+    }
+
+    .title-section h1{
+        font-size: 3.4rem;
+    }
+
+    .section-heading h2,
+    .rationale-card h2{
+        font-size: 2.4rem;
+    }
+
+    .two-column{
+        grid-template-columns: 1fr;
+    }
+
+    .palette-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .small-use-card{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .nav-lockup{
+        height: 36px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .title-section h1{
+        font-size: 2.8rem;
+    }
+
+    .palette-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .rationale-card{
+        padding: 32px;
+    }
+}
+/* =========================================
+   FINAL NAVBAR AND RATIONALE TWEAKS
+========================================= */
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #503D0D !important;
+    font-weight: 800;
+    font-size: 1.35rem;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.nav-logo-only{
+    height: 38px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.site-nav{
+    min-height: 74px;
+}
+
+.rationale-card{
+    background-color: #FFFFFF;
+    color: #1E1E1E;
+    border: 1px solid #CFCFCF;
+    border-radius: 28px;
+    padding: 50px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.10);
+}
+
+.rationale-card .eyebrow{
+    color: #503D0D;
+}
+
+.rationale-card h2{
+    color: #1E1E1E;
+}
+
+.rationale-card p{
+    color: #333333;
+    max-width: 980px;
+    font-size: 1.08rem;
+    line-height: 1.75;
+}
+
+@media screen and (max-width: 768px){
+    .nav-logo-only{
+        height: 34px;
+    }
+
+    .navbar-brand{
+        font-size: 1.15rem;
+    }
+}
+/* =========================================
+   RATIONALE LOGO ADDITION
+========================================= */
+
+.rationale-with-logo{
+    display: grid;
+    grid-template-columns: 1.4fr 0.6fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.rationale-text{
+    max-width: 900px;
+}
+
+.rationale-logo-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rationale-logo{
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 768px){
+    .rationale-with-logo{
+        grid-template-columns: 1fr;
+    }
+
+    .rationale-logo-wrap{
+        justify-content: flex-start;
+    }
+
+    .rationale-logo{
+        width: 120px;
+    }
+}
+/* =========================================
+   FINAL NAVBAR MATCH TO OLD HOMEWORK STYLE
+========================================= */
+
+.site-nav{
+    background-color: rgba(231, 225, 191, 1.00) !important;
+    border-bottom: none;
+    box-shadow: none;
+    min-height: 56px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nav-inner{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand:hover{
+    color: rgb(0, 0, 0) !important;
+}
+
+.nav-logo-only{
+    height: 32px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.nav-link{
+    color: rgb(80, 61, 13) !important;
+    font-weight: 400;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: rgb(80, 61, 13) !important;
+    text-decoration: underline;
+}
+
+.nav-link.active,
+.active{
+    color: rgb(80, 61, 13) !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-item{
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid rgba(80, 61, 13, 0.35);
+}
+
+@media screen and (max-width: 768px){
+    .nav-logo-only{
+        height: 28px;
+    }
+
+    .navbar-brand{
+        font-size: 1.15rem;
+    }
+
+    .navbar-nav .nav-item{
+        border-left: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+/* Final navbar brand color fix */
+
+.navbar-brand,
+.navbar-brand span,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: rgb(80, 61, 13) !important;
+}
